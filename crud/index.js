@@ -2,7 +2,7 @@
 const express = require('express');
 const routes = require('./routes/users.js');
 const app = express();
-const PORT = 5003;
+const PORT = 5004;
 
 // Use JSON parsing middleware and user routes
 app.use(express.json());
